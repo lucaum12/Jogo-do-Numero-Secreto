@@ -13,7 +13,7 @@ exibirMensagemInicial();
 
 function exibirMensagemInicial(){
     exibirTextoNaTela("h1", "Jogo do Número Secreto!");
-    exibirTextoNaTela("p", "Digite um número entre 1 e 10:");
+    exibirTextoNaTela("p", `Digite um número entre 1 e ${numeroLimite}:`);
 }
 
 console.log(numeroSecreto);
